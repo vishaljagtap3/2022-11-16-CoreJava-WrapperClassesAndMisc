@@ -1,5 +1,18 @@
+import java.awt.geom.FlatteningPathIterator;
+
 public class Main {
     public static void main(String[] args) {
+
+        //*****
+        //Auto boxing
+        //Integer iRef = new Integer(100); //not recommended
+        Integer iRef = 100;
+        Float fObj = 3.14f;
+        //Auto unboxing
+        float fVar = fObj; //float fVar = fObj.floatValue();
+        int i = iRef;
+
+        //****
 
         Runtime runtime = Runtime.getRuntime();
 
